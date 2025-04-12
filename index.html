@@ -8,35 +8,54 @@
   <style>
     body {
       margin: 0;
-      font-family: 'Segoe UI', sans-serif;
-      background-color: #0f0f0f;
-      color: #e0e0e0;
+      font-family: 'Fira Code', monospace;
+      background-color: #0d1117;
+      color: #c9d1d9;
+      line-height: 1.6;
     }
     header, section {
       padding: 40px;
-      max-width: 900px;
+      max-width: 1000px;
       margin: auto;
     }
     h1, h2 {
-      color: #00e278;
+      color: #58a6ff;
     }
     a {
-      color: #00bfff;
+      color: #58a6ff;
       text-decoration: none;
     }
-    .project {
-      margin: 20px 0;
+    a:hover {
+      text-decoration: underline;
     }
-    .resume {
-      margin-top: 30px;
+    .section-divider {
+      margin: 40px 0;
+      border-top: 1px solid #30363d;
+    }
+    .project, ul li {
+      margin: 10px 0;
+    }
+    blockquote {
+      border-left: 4px solid #58a6ff;
+      padding-left: 16px;
+      color: #8b949e;
+      font-style: italic;
+      margin-left: 0;
+    }
+    .logo-bar {
+      margin-top: 20px;
+    }
+    .logo-bar img {
+      height: 30px;
+      margin-right: 15px;
+      vertical-align: middle;
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Dharma Teja Thoutam</h1>
-    <p>Software Development | DevOps | Cloud | AI/ML | Embedded Systems</p>
-    <p>I’m a recent M.Sc. Electrical Engineering graduate with hands-on experience in DevOps, Cloud, and AI. I build scalable backend systems, deploy ML models, and love turning ideas into reliable, production-ready solutions.</p>
+    <p>DevOps | Cloud | AI/ML | Embedded Systems</p>
     <p>
       <a href="Dharma_Teja_Resume.pdf" target="_blank">📄 View My Resume</a> |
       <a href="https://github.com/Tej128" target="_blank">💻 GitHub</a> |
@@ -45,13 +64,60 @@
   </header>
 
   <section>
-    <h2>Featured Projects</h2>
-    <div class="project"><a href="https://github.com/Tej128/CICD-AWS-Django" target="_blank">🚀 CI/CD with AWS CodePipeline + CodeDeploy</a></div>
-    <div class="project"><a href="https://github.com/Tej128/Cloud-Native-Monitoring" target="_blank">📊 Cloud-Native Monitoring App (Flask + EKS)</a></div>
-    <div class="project"><a href="https://github.com/Tej128/Job_Portal" target="_blank">💼 Job Portal (Flask + RBAC)</a></div>
-    <div class="project"><a href="https://github.com/Tej128/SNMP_Prober" target="_blank">📡 SNMP Prober (Python)</a></div>
-    <div class="project"><a href="https://github.com/Tej128/Openstack-service-deployment-and-Automation" target="_blank">☁️ OpenStack Deployment with Ansible</a></div>
-    <div class="project"><a href="https://github.com/Tej128/To-do-list" target="_blank">📝 To-Do List in C++</a></div>
+    <h2>👨‍💻 About Me</h2>
+    <p>I'm a recent Master's graduate with a strong foundation and deep enthusiasm for software development, DevOps, Cloud Infrastructure (AWS, Azure, OpenStack), and AI/ML.</p>
+    <p>I specialize in designing and deploying scalable, production-ready systems using Docker, Kubernetes, Ansible, and Jenkins. Known for my cross-functional collaboration, continuous learning mindset, and ability to deliver efficient solutions in agile environments.</p>
+    <div class="logo-bar">
+      <!-- Add logos here -->
+      <img src="logo-ericsson.png" alt="Ericsson" />
+      <img src="logo-aws.png" alt="AWS" />
+      <img src="logo-python.png" alt="Python" />
+    </div>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section>
+    <h2>🎓 Master Thesis – AI Chatbot for Domain-Specific Support</h2>
+    <p>Traditional human-driven support struggles to keep up with demand for fast, accurate technical responses. My thesis explored how Retrieval-Augmented Generation (RAG) can transform domain-specific customer support.</p>
+    <p>I designed and implemented a chatbot using RAG architecture and pretrained LLMs, capable of delivering context-aware, accurate answers for specialized telecom scenarios. The system achieved <strong>95.24% user satisfaction</strong> and significantly reduced reliance on human agents.</p>
+    <p>📘 <i>"AI-powered support systems, when tailored with domain-specific data and robust retrieval pipelines, can dramatically improve customer satisfaction in technical industries."</i></p>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section>
+    <h2>🏢 Internship @ Ericsson AB</h2>
+    <p>During my internship at Ericsson, I contributed to the development of AI-powered support systems and implemented real-time log monitoring dashboards. I collaborated cross-functionally in Agile teams, leading automation for observability and diagnostics.</p>
+    <blockquote>
+      “Dharma has performed his tasks with considerable care and great interest to our satisfaction. We thank Dharma for his performance and wish him good luck in his future work assignments.”
+    </blockquote>
+    <p>📎 <a href="Dharma_Ericsson_Internship_Certificate.pdf" target="_blank">View Certificate</a></p>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section>
+    <h2>📜 Certifications</h2>
+    <ul>
+      <li>✅ AWS Cloud Technical Essentials</li>
+      <li>✅ Python Programming Masterclass</li>
+      <li>✅ C++ Programming Certification</li>
+      <li>✅ DevOps Beginner to Advanced</li>
+      <li>✅ Vector CANoe Basics</li>
+    </ul>
+  </section>
+
+  <div class="section-divider"></div>
+
+  <section>
+    <h2>🚀 Projects</h2>
+    <div class="project"><a href="https://github.com/Tej128/CICD-AWS-Django" target="_blank">CI/CD with AWS CodePipeline + CodeDeploy</a></div>
+    <div class="project"><a href="https://github.com/Tej128/Cloud-Native-Monitoring" target="_blank">Cloud-Native Monitoring App (Flask + EKS)</a></div>
+    <div class="project"><a href="https://github.com/Tej128/Job_Portal" target="_blank">Job Portal (Flask + RBAC)</a></div>
+    <div class="project"><a href="https://github.com/Tej128/SNMP_Prober" target="_blank">SNMP Prober (Python)</a></div>
+    <div class="project"><a href="https://github.com/Tej128/Openstack-service-deployment-and-Automation" target="_blank">OpenStack Deployment with Ansible</a></div>
+    <div class="project"><a href="https://github.com/Tej128/To-do-list" target="_blank">To-Do List in C++</a></div>
   </section>
 </body>
 </html>
